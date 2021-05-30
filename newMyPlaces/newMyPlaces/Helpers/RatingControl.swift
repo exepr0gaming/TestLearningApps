@@ -63,8 +63,6 @@ import UIKit
 		let emptyStar = UIImage(named: "emptyStar", in: bundle, compatibleWith: self.traitCollection)
 		let highlightedStar = UIImage(named: "highlightedStar", in: bundle, compatibleWith: self.traitCollection)
 		
-		
-		
 		for _ in 0..<starCount {
 			let button = UIButton()
 			//button.backgroundColor = .red
@@ -76,10 +74,8 @@ import UIKit
 			button.translatesAutoresizingMaskIntoConstraints = false // откл автомат сгенерированные констрейнты для кнопки
 			button.heightAnchor.constraint(equalToConstant: starSize.height).isActive = true
 			button.widthAnchor.constraint(equalToConstant: starSize.width).isActive = true
-			
 			//setup button action
 			button.addTarget(self, action: #selector(ratingButtonTapped(button:)), for: .touchUpInside)
-			
 			//помещяем кнопку в stackView
 			addArrangedSubview(button)
 			
@@ -91,10 +87,7 @@ import UIKit
 	private func updateButtonSelectionState(){
 		for (index, button) in ratingButtons.enumerated() { // enum возвращает индекс и объект
 			button.isSelected = index < Int(rating)
-			
 		}
 	}
-	
-	
 
 }

@@ -23,18 +23,6 @@ class NetworkManager {
 		performRequest(withUrlString: urlString)
 	}
 	
-//	func fetchData(fromCity city: String) { // , with complition: @escaping (CurrentWeather) -> Void)
-//
-//		guard	let urlCity = URL(string: city)	else { return }
-//		let urlString = "https://api.openweathermap.org/data/2.5/weather?q=\(urlCity)&appid=\(apiKey)&units=metric"
-//		performRequest(withUrlString: urlString)
-//	}
-//
-//	func fetchData(fromLatitude latitude: CLLocationDegrees, longitude: CLLocationDegrees) { // , with complition: @escaping (CurrentWeather) -> Void)
-//		let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=\(apiKey)&units=metric"
-//		performRequest(withUrlString: urlString)
-//	}
-	
 	fileprivate func performRequest(withUrlString urlString: String) {
 		guard let url = URL(string: urlString) else { return }
 		

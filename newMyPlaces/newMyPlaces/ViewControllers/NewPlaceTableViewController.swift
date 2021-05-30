@@ -23,10 +23,6 @@ class NewPlaceTableViewController: UITableViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-//		DispatchQueue.main.async {
-//			self.newPlace.savePlaces()
-//		}
-		
 		tableView.tableFooterView = UIView()
 		saveButton.isEnabled = false
 		placeName.addTarget(self, action: #selector(textFieldChanged), for: .editingChanged)

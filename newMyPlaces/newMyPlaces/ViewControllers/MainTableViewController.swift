@@ -35,7 +35,6 @@ class MainTableViewController: UIViewController, UITableViewDataSource {
 	}
 	
 	// MARK: - Table view data source
-	
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		if isFiltering {
 			return filteredPlaces.count
@@ -43,33 +42,22 @@ class MainTableViewController: UIViewController, UITableViewDataSource {
 		return places.count
 	}
 	
-	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! CustomTableViewCell
-		
 		let place = isFiltering ? filteredPlaces[indexPath.row] : places[indexPath.row]
-//		if isFiltering {
-//			place = filteredPlaces[indexPath.row]
-//		} else {
-//			place = places[indexPath.row]
-//		}
-
+		
 		cell.nameOfPlaceLabel?.text = place.name
 		cell.locationOfPlaceLabel.text = place.location
 		cell.typeOfPlaceLabel.text = place.type
 		cell.imageOfPlace.image = UIImage(data: place.imageData!)
 		cell.cosmosView.rating = place.rating
 		
-		
-		
 		return cell
 	}
 	
 	// MARK: - Table View delegate
-	
-	// отменить выделение ячейки
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		tableView.deselectRow(at: indexPath, animated: true)
+		tableView.deselectRow(at: indexPath, animated: true) // отменить выделение ячейки
 	}
 	
 	//delete (более крупные методы - leading и trailingSwipeActionsConfigurationForRowAt
@@ -81,26 +69,17 @@ class MainTableViewController: UIViewController, UITableViewDataSource {
 		}
 	}
 	
-	
 	@IBAction func unwindSegue(_ segue: UIStoryboardSegue){
 		guard let newPlaceVC = segue.source as? NewPlaceTableViewController else { return }
 		newPlaceVC.savePlace()
 		tableView.reloadData()
 	}
 	
-	
 	// MARK: - Navigation
-	
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		if segue.identifier == "detailSegue" {
 			guard	let indexPath = tableView.indexPathForSelectedRow else { return }
-			
 			let place = isFiltering ? filteredPlaces[indexPath.row] : places[indexPath.row]
-//			if isFiltering {
-//				place = filteredPlaces[indexPath.row]
-//			} else {
-//				place = places[indexPath.row]
-//			}
 			guard let editVC = segue.destination as? NewPlaceTableViewController else { return }
 			editVC.currentPlace = place
 		}
@@ -120,12 +99,12 @@ class MainTableViewController: UIViewController, UITableViewDataSource {
 	}
 	
 	private func sorted(){
-			if segmentedControl.selectedSegmentIndex == 0 {
-				places = places.sorted(byKeyPath: "date", ascending: accessingSorting)
-			} else {
-				places = places.sorted(byKeyPath: "name", ascending: accessingSorting)
-			}
-			tableView.reloadData()
+		if segmentedControl.selectedSegmentIndex == 0 {
+			places = places.sorted(byKeyPath: "date", ascending: accessingSorting)
+		} else {
+			places = places.sorted(byKeyPath: "name", ascending: accessingSorting)
+		}
+		tableView.reloadData()
 	}
 	
 }

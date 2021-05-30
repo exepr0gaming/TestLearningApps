@@ -80,14 +80,7 @@ class MapViewController: UIViewController {
 			addressLabel.text = ""
 			goRouteButton.isHidden = false
 		}
-		
 	}
-	
-//	private func setupLocationManager() {
-//		locationManageer.delegate = self
-//		locationManageer.desiredAccuracy = kCLLocationAccuracyBest // максимальная точность опред местоположения
-//	}
-	
 }
 
 extension MapViewController: MKMapViewDelegate {
@@ -117,7 +110,7 @@ extension MapViewController: MKMapViewDelegate {
 		let geocoder = CLGeocoder()
 		
 		if incomeSegueIdentifier == "showPlace" && previousLocation != nil {
-			DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+			DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
 				self.mapManager.showUserLocation(mapView: mapView)
 			}
 		}
@@ -153,10 +146,8 @@ extension MapViewController: MKMapViewDelegate {
 		
 		return renderer
 	}
-	
-	
-	
-}
+
+} // extension MapViewController: MKMapViewDelegate
 
 // отслеживать в реальном времени изменение статуса отслеживания пользователя
 extension MapViewController: CLLocationManagerDelegate {

@@ -19,12 +19,6 @@ class TrackListTableViewController: UITableViewController {
 												"Mac Vaughn - Pink Is My Favorite Color (Alex Stein Remix)",
 												"Metodi Hristov, Gallya - Badmash (Original Mix)",
 												"Veerus, Maxie Devine - Nightmare (Original Mix)"]
-	
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-			
-    }
 
     // MARK: - Table view data source
 
@@ -32,7 +26,6 @@ class TrackListTableViewController: UITableViewController {
 			return imageNameArray.count
     }
 
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
 			
@@ -46,14 +39,11 @@ class TrackListTableViewController: UITableViewController {
 	override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
 		60
 	}
+	
     // MARK: - Navigation
-
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-			//guard segue.identifier == "showDetails" else { return }
 			guard let detailsVC = segue.destination as? DetailsVC else { return }
 			guard let indexPath = tableView.indexPathForSelectedRow else { return }
-			//segueDest.imageView.image = UIImage(named: imageNameArray[indexPath])
 			detailsVC.trackTitle = imageNameArray[indexPath.row]
     }
-
 }

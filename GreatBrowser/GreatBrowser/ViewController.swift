@@ -37,17 +37,12 @@ class ViewController: UIViewController {
 	
 	
 	@IBAction func backbuttonAction(_ sender: UIButton) {
-		if webView.canGoBack {
-			webView.goBack()
-		}
+		if webView.canGoBack { webView.goBack()	}
 	}
 	
 	@IBAction func forwardButtonAction(_ sender: Any) {
-		if webView.canGoForward {
-			webView.goForward()
-		}
+		if webView.canGoForward {	webView.goForward()	}
 	}
-	
 }
 
 extension ViewController: UITextFieldDelegate, WKNavigationDelegate {

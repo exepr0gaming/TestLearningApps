@@ -3,35 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		843A74512633994D001DA4BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A74502633994D001DA4BD /* AppDelegate.swift */; };
-		843A74532633994D001DA4BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A74522633994D001DA4BD /* SceneDelegate.swift */; };
-		843A745D2633994F001DA4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843A745C2633994F001DA4BD /* Assets.xcassets */; };
-		843A74602633994F001DA4BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A745E2633994F001DA4BD /* LaunchScreen.storyboard */; };
-		843A746B263399B2001DA4BD /* MyCars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843A7468263399B2001DA4BD /* MyCars.xcdatamodeld */; };
-		843A746C263399B2001DA4BD /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843A746A263399B2001DA4BD /* data.plist */; };
-		843A7471263399DF001DA4BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843A746F263399DF001DA4BD /* Main.storyboard */; };
-		843A7474263399E9001DA4BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A7473263399E9001DA4BD /* ViewController.swift */; };
+		352762DA1C0AEC0000A3BABA /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 359705B91C0829ED00D13FE9 /* data.plist */; };
+		352762DB1C0AEEEA00A3BABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359705AA1C08159E00D13FE9 /* Assets.xcassets */; };
+		352762DD1C0AEF0900A3BABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359705A41C08159E00D13FE9 /* Main.storyboard */; };
+		352762DE1C0AEF1500A3BABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 359705AC1C08159E00D13FE9 /* LaunchScreen.storyboard */; };
+		352762DF1C0AEF3100A3BABA /* MyCars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 359705A71C08159E00D13FE9 /* MyCars.xcdatamodeld */; };
+		352762E01C0AEF3400A3BABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359705A01C08159E00D13FE9 /* AppDelegate.swift */; };
+		352762E11C0AEF3600A3BABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359705A21C08159E00D13FE9 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		843A744D2633994D001DA4BD /* MyCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		843A74502633994D001DA4BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		843A74522633994D001DA4BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		843A745C2633994F001DA4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		843A745F2633994F001DA4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		843A74612633994F001DA4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		843A7469263399B2001DA4BD /* MyCars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCars.xcdatamodel; sourceTree = "<group>"; };
-		843A746A263399B2001DA4BD /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = data.plist; path = "../../../../../Desktop/7. Курс Изучаем Основы Core Data/Конечный проект/MyCars/MyCars/data.plist"; sourceTree = "<group>"; };
-		843A7470263399DF001DA4BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../Desktop/7. Курс Изучаем Основы Core Data/Конечный проект/MyCars/MyCars/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		843A7473263399E9001DA4BD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../../../Desktop/7. Курс Изучаем Основы Core Data/Конечный проект/MyCars/MyCars/ViewController.swift"; sourceTree = "<group>"; };
+		358A82FB1DD2EA530043EADA /* Car+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataClass.swift"; sourceTree = "<group>"; };
+		358A82FC1DD2EA530043EADA /* Car+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Car+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		359705A01C08159E00D13FE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		359705A21C08159E00D13FE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		359705A51C08159E00D13FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		359705A81C08159E00D13FE9 /* MyCars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCars.xcdatamodel; sourceTree = "<group>"; };
+		359705AA1C08159E00D13FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		359705AD1C08159E00D13FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		359705AF1C08159E00D13FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		359705B91C0829ED00D13FE9 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		35F2F4DF1C084725000E1CB3 /* MyCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		843A744A2633994D001DA4BD /* Frameworks */ = {
+		35F2F4DC1C084725000E1CB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,34 +41,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		843A74442633994D001DA4BD = {
+		359705941C08159E00D13FE9 = {
 			isa = PBXGroup;
 			children = (
-				843A744F2633994D001DA4BD /* MyCars */,
-				843A744E2633994D001DA4BD /* Products */,
+				3597059F1C08159E00D13FE9 /* MyCars */,
+				3597059E1C08159E00D13FE9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		843A744E2633994D001DA4BD /* Products */ = {
+		3597059E1C08159E00D13FE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				843A744D2633994D001DA4BD /* MyCars.app */,
+				35F2F4DF1C084725000E1CB3 /* MyCars.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		843A744F2633994D001DA4BD /* MyCars */ = {
+		3597059F1C08159E00D13FE9 /* MyCars */ = {
 			isa = PBXGroup;
 			children = (
-				843A74502633994D001DA4BD /* AppDelegate.swift */,
-				843A74522633994D001DA4BD /* SceneDelegate.swift */,
-				843A7473263399E9001DA4BD /* ViewController.swift */,
-				843A746F263399DF001DA4BD /* Main.storyboard */,
-				843A745E2633994F001DA4BD /* LaunchScreen.storyboard */,
-				843A745C2633994F001DA4BD /* Assets.xcassets */,
-				843A74612633994F001DA4BD /* Info.plist */,
-				843A746A263399B2001DA4BD /* data.plist */,
-				843A7468263399B2001DA4BD /* MyCars.xcdatamodeld */,
+				359705A01C08159E00D13FE9 /* AppDelegate.swift */,
+				359705A21C08159E00D13FE9 /* ViewController.swift */,
+				359705AA1C08159E00D13FE9 /* Assets.xcassets */,
+				359705A41C08159E00D13FE9 /* Main.storyboard */,
+				359705AC1C08159E00D13FE9 /* LaunchScreen.storyboard */,
+				359705B91C0829ED00D13FE9 /* data.plist */,
+				359705AF1C08159E00D13FE9 /* Info.plist */,
+				359705A71C08159E00D13FE9 /* MyCars.xcdatamodeld */,
+				358A82FB1DD2EA530043EADA /* Car+CoreDataClass.swift */,
+				358A82FC1DD2EA530043EADA /* Car+CoreDataProperties.swift */,
 			);
 			path = MyCars;
 			sourceTree = "<group>";
@@ -76,121 +77,120 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		843A744C2633994D001DA4BD /* MyCars */ = {
+		35F2F4DE1C084725000E1CB3 /* MyCars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 843A74642633994F001DA4BD /* Build configuration list for PBXNativeTarget "MyCars" */;
+			buildConfigurationList = 35F2F4F11C084725000E1CB3 /* Build configuration list for PBXNativeTarget "MyCars" */;
 			buildPhases = (
-				843A74492633994D001DA4BD /* Sources */,
-				843A744A2633994D001DA4BD /* Frameworks */,
-				843A744B2633994D001DA4BD /* Resources */,
+				35F2F4DB1C084725000E1CB3 /* Sources */,
+				35F2F4DC1C084725000E1CB3 /* Frameworks */,
+				35F2F4DD1C084725000E1CB3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MyCars;
-			productName = myCars;
-			productReference = 843A744D2633994D001DA4BD /* MyCars.app */;
+			productName = MyCars;
+			productReference = 35F2F4DF1C084725000E1CB3 /* MyCars.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		843A74452633994D001DA4BD /* Project object */ = {
+		359705951C08159E00D13FE9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "motivation-4life";
 				TargetAttributes = {
-					843A744C2633994D001DA4BD = {
-						CreatedOnToolsVersion = 12.4;
+					35F2F4DE1C084725000E1CB3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5H969S6YFE;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
-			buildConfigurationList = 843A74482633994D001DA4BD /* Build configuration list for PBXProject "MyCars" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 359705981C08159E00D13FE9 /* Build configuration list for PBXProject "MyCars" */;
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 843A74442633994D001DA4BD;
-			productRefGroup = 843A744E2633994D001DA4BD /* Products */;
+			mainGroup = 359705941C08159E00D13FE9;
+			productRefGroup = 3597059E1C08159E00D13FE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				843A744C2633994D001DA4BD /* MyCars */,
+				35F2F4DE1C084725000E1CB3 /* MyCars */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		843A744B2633994D001DA4BD /* Resources */ = {
+		35F2F4DD1C084725000E1CB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843A74602633994F001DA4BD /* LaunchScreen.storyboard in Resources */,
-				843A745D2633994F001DA4BD /* Assets.xcassets in Resources */,
-				843A746C263399B2001DA4BD /* data.plist in Resources */,
-				843A7471263399DF001DA4BD /* Main.storyboard in Resources */,
+				352762DE1C0AEF1500A3BABA /* LaunchScreen.storyboard in Resources */,
+				352762DD1C0AEF0900A3BABA /* Main.storyboard in Resources */,
+				352762DB1C0AEEEA00A3BABA /* Assets.xcassets in Resources */,
+				352762DA1C0AEC0000A3BABA /* data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		843A74492633994D001DA4BD /* Sources */ = {
+		35F2F4DB1C084725000E1CB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843A7474263399E9001DA4BD /* ViewController.swift in Sources */,
-				843A746B263399B2001DA4BD /* MyCars.xcdatamodeld in Sources */,
-				843A74512633994D001DA4BD /* AppDelegate.swift in Sources */,
-				843A74532633994D001DA4BD /* SceneDelegate.swift in Sources */,
+				352762E11C0AEF3600A3BABA /* ViewController.swift in Sources */,
+				352762E01C0AEF3400A3BABA /* AppDelegate.swift in Sources */,
+				352762DF1C0AEF3100A3BABA /* MyCars.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		843A745E2633994F001DA4BD /* LaunchScreen.storyboard */ = {
+		359705A41C08159E00D13FE9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				843A745F2633994F001DA4BD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		843A746F263399DF001DA4BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				843A7470263399DF001DA4BD /* Base */,
+				359705A51C08159E00D13FE9 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		359705AC1C08159E00D13FE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				359705AD1C08159E00D13FE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		843A74622633994F001DA4BD /* Debug */ = {
+		359705B01C08159E00D13FE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -203,14 +203,14 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -224,34 +224,29 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		843A74632633994F001DA4BD /* Release */ = {
+		359705B11C08159E00D13FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -264,14 +259,14 @@
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -279,71 +274,57 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		843A74652633994F001DA4BD /* Debug */ = {
+		35F2F4F21C084725000E1CB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 45BPS947ZY;
-				INFOPLIST_FILE = myCars/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				DEVELOPMENT_TEAM = 5H969S6YFE;
+				INFOPLIST_FILE = MyCars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.motivation-4life.myCars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		843A74662633994F001DA4BD /* Release */ = {
+		35F2F4F31C084725000E1CB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 45BPS947ZY;
-				INFOPLIST_FILE = myCars/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				DEVELOPMENT_TEAM = 5H969S6YFE;
+				INFOPLIST_FILE = MyCars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.motivation-4life.myCars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		843A74482633994D001DA4BD /* Build configuration list for PBXProject "MyCars" */ = {
+		359705981C08159E00D13FE9 /* Build configuration list for PBXProject "MyCars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843A74622633994F001DA4BD /* Debug */,
-				843A74632633994F001DA4BD /* Release */,
+				359705B01C08159E00D13FE9 /* Debug */,
+				359705B11C08159E00D13FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		843A74642633994F001DA4BD /* Build configuration list for PBXNativeTarget "MyCars" */ = {
+		35F2F4F11C084725000E1CB3 /* Build configuration list for PBXNativeTarget "MyCars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				843A74652633994F001DA4BD /* Debug */,
-				843A74662633994F001DA4BD /* Release */,
+				35F2F4F21C084725000E1CB3 /* Debug */,
+				35F2F4F31C084725000E1CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -351,18 +332,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		843A7468263399B2001DA4BD /* MyCars.xcdatamodeld */ = {
+		359705A71C08159E00D13FE9 /* MyCars.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				843A7469263399B2001DA4BD /* MyCars.xcdatamodel */,
+				359705A81C08159E00D13FE9 /* MyCars.xcdatamodel */,
 			);
-			currentVersion = 843A7469263399B2001DA4BD /* MyCars.xcdatamodel */;
-			name = MyCars.xcdatamodeld;
-			path = "../../../../../Desktop/7. Курс Изучаем Основы Core Data/Конечный проект/MyCars/MyCars/MyCars.xcdatamodeld";
+			currentVersion = 359705A81C08159E00D13FE9 /* MyCars.xcdatamodel */;
+			path = MyCars.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 843A74452633994D001DA4BD /* Project object */;
+	rootObject = 359705951C08159E00D13FE9 /* Project object */;
 }
