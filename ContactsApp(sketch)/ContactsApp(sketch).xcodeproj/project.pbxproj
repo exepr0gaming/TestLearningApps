@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84214EAC2642BF7800207F70 /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84214EA92642AE5400207F70 /* SF-Pro-Rounded-Medium.otf */; };
-		84214EAE2642BF7B00207F70 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84214EAA2642AE5E00207F70 /* SF-Pro-Rounded-Semibold.otf */; };
-		84214EB02642BF7E00207F70 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84214EA82642AE4D00207F70 /* SF-Pro-Rounded-Regular.otf */; };
 		84214EB32642BFC200207F70 /* UIFont + Exntension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84214EB22642BFC200207F70 /* UIFont + Exntension.swift */; };
 		84453F88264151DB004442F3 /* UserModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84453F87264151DB004442F3 /* UserModal.swift */; };
 		84453F8B26415214004442F3 /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84453F8A26415214004442F3 /* SelfConfiguringCell.swift */; };
@@ -25,6 +22,8 @@
 		845252D226407E3400BEE486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845252D126407E3400BEE486 /* Assets.xcassets */; };
 		845252D526407E3400BEE486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845252D326407E3400BEE486 /* LaunchScreen.storyboard */; };
 		845252DE26407EE200BEE486 /* Bundle + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845252DD26407EE200BEE486 /* Bundle + Extension.swift */; };
+		84E5D84626646269001D1CD1 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E5D84526646269001D1CD1 /* SF-Pro-Rounded-Regular.otf */; };
+		84E5D8492664627A001D1CD1 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84E5D8482664627A001D1CD1 /* SF-Pro-Rounded-Semibold.otf */; };
 		84EF76A5264202A400D2569E /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF76A4264202A400D2569E /* SectionHeader.swift */; };
 		84EF76AA2642110200D2569E /* UIView + Exntension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF76A92642110200D2569E /* UIView + Exntension.swift */; };
 		84FA429026407FA600B74F28 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FA428F26407FA600B74F28 /* MainTabBarController.swift */; };
@@ -33,9 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84214EA82642AE4D00207F70 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Regular.otf"; path = "../../../../../../../Library/Fonts/SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
-		84214EA92642AE5400207F70 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Medium.otf"; path = "../../../../../../../Library/Fonts/SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
-		84214EAA2642AE5E00207F70 /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Semibold.otf"; path = "../../../../../../../Library/Fonts/SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
 		84214EB22642BFC200207F70 /* UIFont + Exntension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Exntension.swift"; sourceTree = "<group>"; };
 		84453F87264151DB004442F3 /* UserModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModal.swift; sourceTree = "<group>"; };
 		84453F8A26415214004442F3 /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
@@ -53,6 +49,9 @@
 		845252D426407E3400BEE486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845252D626407E3400BEE486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		845252DD26407EE200BEE486 /* Bundle + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle + Extension.swift"; sourceTree = "<group>"; };
+		84E5D84426646251001D1CD1 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Medium.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		84E5D84526646269001D1CD1 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Regular.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		84E5D8482664627A001D1CD1 /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Semibold.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
 		84EF76A4264202A400D2569E /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		84EF76A92642110200D2569E /* UIView + Exntension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Exntension.swift"; sourceTree = "<group>"; };
 		84FA428F26407FA600B74F28 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -74,9 +73,9 @@
 		84214EA72642AE2700207F70 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				84214EA92642AE5400207F70 /* SF-Pro-Rounded-Medium.otf */,
-				84214EAA2642AE5E00207F70 /* SF-Pro-Rounded-Semibold.otf */,
-				84214EA82642AE4D00207F70 /* SF-Pro-Rounded-Regular.otf */,
+				84E5D84526646269001D1CD1 /* SF-Pro-Rounded-Regular.otf */,
+				84E5D8482664627A001D1CD1 /* SF-Pro-Rounded-Semibold.otf */,
+				84E5D84426646251001D1CD1 /* SF-Pro-Rounded-Medium.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -224,11 +223,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				845252D526407E3400BEE486 /* LaunchScreen.storyboard in Resources */,
-				84214EB02642BF7E00207F70 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				8449C9372661A40600CDA0C4 /* contactUsers.json in Resources */,
 				8449C9362661A40600CDA0C4 /* favouriteUsers.json in Resources */,
-				84214EAE2642BF7B00207F70 /* SF-Pro-Rounded-Semibold.otf in Resources */,
-				84214EAC2642BF7800207F70 /* SF-Pro-Rounded-Medium.otf in Resources */,
+				84E5D84626646269001D1CD1 /* SF-Pro-Rounded-Regular.otf in Resources */,
+				84E5D8492664627A001D1CD1 /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				845252D226407E3400BEE486 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

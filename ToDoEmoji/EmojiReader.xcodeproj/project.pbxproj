@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		842A69B6243B9E2F006698D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A69B5243B9E2F006698D5 /* AppDelegate.swift */; };
 		842A69B8243B9E2F006698D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A69B7243B9E2F006698D5 /* SceneDelegate.swift */; };
-		842A69BA243B9E2F006698D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A69B9243B9E2F006698D5 /* ViewController.swift */; };
 		842A69BD243B9E2F006698D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A69BB243B9E2F006698D5 /* Main.storyboard */; };
 		842A69BF243B9E32006698D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842A69BE243B9E32006698D5 /* Assets.xcassets */; };
 		842A69C2243B9E32006698D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A69C0243B9E32006698D5 /* LaunchScreen.storyboard */; };
@@ -23,7 +22,6 @@
 		842A69B2243B9E2F006698D5 /* EmojiReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842A69B5243B9E2F006698D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842A69B7243B9E2F006698D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		842A69B9243B9E2F006698D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		842A69BC243B9E2F006698D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842A69BE243B9E32006698D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842A69C1243B9E32006698D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			children = (
 				842A69B5243B9E2F006698D5 /* AppDelegate.swift */,
 				842A69B7243B9E2F006698D5 /* SceneDelegate.swift */,
-				842A69B9243B9E2F006698D5 /* ViewController.swift */,
 				842A69CF243CBD0A006698D5 /* CreateEmojiTVController.swift */,
 				842A69CB243C5C1C006698D5 /* EmojiTVCell.swift */,
 				842A69C9243C5147006698D5 /* EmojiTableVC.swift */,
@@ -106,7 +103,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Andrew Kurdin";
 				TargetAttributes = {
 					842A69B1243B9E2F006698D5 = {
@@ -150,7 +147,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842A69BA243B9E2F006698D5 /* ViewController.swift in Sources */,
 				842A69B6243B9E2F006698D5 /* AppDelegate.swift in Sources */,
 				842A69CE243C61B3006698D5 /* EmojiModel.swift in Sources */,
 				842A69D0243CBD0A006698D5 /* CreateEmojiTVController.swift in Sources */,
@@ -208,6 +204,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -268,6 +265,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

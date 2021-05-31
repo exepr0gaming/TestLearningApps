@@ -22,12 +22,6 @@ class EmojiTableVC: UITableViewController {
 		super.viewDidLoad()
 		
 		self.navigationItem.leftBarButtonItem = self.editButtonItem
-		
-//		navigationItem.leftBarButtonItem =	UIBarButtonItem(barButtonSystemItem: .edit, target: self,
-//										action: #selector(editButton))
-		
-		//self.title = "Emoji Reader"
-		//tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
 	}
 	
 	@IBAction func unwindSegue(segue: UIStoryboardSegue) {
@@ -72,17 +66,9 @@ class EmojiTableVC: UITableViewController {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "EmojiCell", for: indexPath) as! EmojiTVCell
 		let objectEmoji = objectsEmoji[indexPath.row]
 		cell.set(objectEmoji: objectEmoji) // при переносе логики в TableViewCell
-//		cell.emojiLabel.text = objectEmoji.emoji
-//		cell.emojiTitle.text = objectEmoji.name
-//		cell.emojiDescription.text = objectEmoji.description
 		
 		return cell
 	}
-	
-	
-//	override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-//	return true
-//	}
 	
 	override func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
 		return .delete // default value
@@ -93,8 +79,6 @@ class EmojiTableVC: UITableViewController {
 			objectsEmoji.remove(at: indexPath.row) // сначала нужно удалить из массива, потом по дефолту с tableView
 			tableView.deleteRows(at: [indexPath], with: .fade)
 		}
-//		else if editingStyle == .insert {
-//		}
 	}
 	
 	override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
@@ -140,21 +124,5 @@ class EmojiTableVC: UITableViewController {
 		
 		return action
 	}
-	
-//	@IBAction func editButton(_ sender: UIBarButtonItem) {
-//		print("hello boy")
-//	}
-	
-	
-	
-	/*
-	// MARK: - Navigation
-	
-	// In a storyboard-based application, you will often want to do a little preparation before navigation
-	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-	// Get the new view controller using segue.destination.
-	// Pass the selected object to the new view controller.
-	}
-	*/
 	
 }

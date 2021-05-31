@@ -7,8 +7,6 @@
 
 import UIKit
 
-
-
 class ContactsViewController: UIViewController {
 	
 	let addBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addBarButtonItemTapped))
@@ -18,9 +16,6 @@ class ContactsViewController: UIViewController {
 	var currentSnapshot: NSDiffableDataSourceSnapshot<ContactsModel.UserCollection, ContactsModel.User>! = nil
 	var collectionView: UICollectionView!
 	let contactsModel = ContactsModel()
-	
-	
-	
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -176,21 +171,6 @@ class ContactsViewController: UIViewController {
 
 
 }
-
-//collectionView.delegate = self
-//collectionView.dataSource = self
-//extension ContactsViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-//	func numberOfSections(in collectionView: UICollectionView) -> Int {
-//		3
-//	}
-//	func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-//		5
-//	}
-//	
-//	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//		let cell ...
-//	}
-//}
 
 
 // MARK: - Actions

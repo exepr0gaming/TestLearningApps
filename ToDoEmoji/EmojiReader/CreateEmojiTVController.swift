@@ -28,10 +28,8 @@ class CreateEmojiTVController: UITableViewController {
 	@IBAction func saveFuncButton() {
 		let emojiText = emojiTF.text ?? ""
 		let nameText = nameTF.text ?? ""
-		//let descriptionText = descriptionTF.text ?? ""
 		
 		saveButton.isEnabled = !emojiText.isEmpty && !nameText.isEmpty
-		//&& !descriptionText.isEmpty
 	}
 	
 	private func updateUI() {
@@ -44,8 +42,6 @@ class CreateEmojiTVController: UITableViewController {
 		saveFuncButton()
 	} // emoji and name - required TF
 	
-	// var emoji empty
-	// prepare
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		super.prepare(for: segue, sender: sender)
 		guard segue.identifier == "saveSegue" else { return }

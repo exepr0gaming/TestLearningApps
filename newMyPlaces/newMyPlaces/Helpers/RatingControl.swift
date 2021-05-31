@@ -65,13 +65,12 @@ import UIKit
 		
 		for _ in 0..<starCount {
 			let button = UIButton()
-			//button.backgroundColor = .red
 			button.setImage(emptyStar, for: .normal)
 			button.setImage(filledStar, for: .selected)
 			button.setImage(highlightedStar, for: .highlighted)
 			button.setImage(highlightedStar, for: [.highlighted, .selected])
 			
-			button.translatesAutoresizingMaskIntoConstraints = false // откл автомат сгенерированные констрейнты для кнопки
+			button.translatesAutoresizingMaskIntoConstraints = false
 			button.heightAnchor.constraint(equalToConstant: starSize.height).isActive = true
 			button.widthAnchor.constraint(equalToConstant: starSize.width).isActive = true
 			//setup button action

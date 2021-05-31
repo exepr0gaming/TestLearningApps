@@ -28,7 +28,7 @@ class MapViewController: UIViewController {
 				for: mapView,
 				and: previousLocation) { (currentLocation) in
 				self.previousLocation = currentLocation
-				DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+				DispatchQueue.main.asyncAfter(deadline: .now() + 10 ) {
 					self.mapManager.showUserLocation(mapView: self.mapView)
 				}
 			}
@@ -149,7 +149,7 @@ extension MapViewController: MKMapViewDelegate {
 
 } // extension MapViewController: MKMapViewDelegate
 
-// отслеживать в реальном времени изменение статуса отслеживания пользователя
+// отслеживать в реальном времени изменение статуса  пользователя
 extension MapViewController: CLLocationManagerDelegate {
 	func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
 		mapManager.checkLocationAuthorization(mapView: mapView, segueIdentifier: incomeSegueIdentifier)

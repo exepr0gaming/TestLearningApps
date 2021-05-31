@@ -16,7 +16,8 @@ class MapManager {
 	private let regionInMeters = 1_000.00
 	private var directionsArray: [MKDirections] = []
 	
-	func setupPlacemark(place: Place, mapView: MKMapView) { // расширяем 2мя свойствами
+	func setupPlacemark(place: Place, mapView: MKMapView) {
+		
 		guard let location = place.location else { return }
 		let geocoder = CLGeocoder() // метод конвертирует/преобразует адрес в координаты
 		// определяет местоположение на карте по адресу переданному в location
