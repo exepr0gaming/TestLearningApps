@@ -15,10 +15,10 @@
 
 <img width="1280" alt="mPl_rating" src="https://user-images.githubusercontent.com/31091846/120185354-bf56b100-c21a-11eb-8bdc-738ff97ea93a.png">
 
-CLLocationManager() // для управления всеми действиями, связанными с метоположением пользователя
+CLLocationManager() // для управления всеми действиями, связанными с местоположением пользователя
 CLGeocoder для преобразования местоположения в координаты
 MKPointAnnotation для описания точки на карте
-Проверем включение. служб отслеживания местоположения и создаем alert для объяснения, как это сделать
+Проверяем включение. служб отслеживания местоположения и создаем alert для объяснения, как это сделать
 
 <img width="1280" alt="mPl_Annotation" src="https://user-images.githubusercontent.com/31091846/120187539-94ba2780-c21d-11eb-9f6d-90fb650fb968.png">
 
@@ -31,3 +31,4 @@ MKPointAnnotation для описания точки на карте
 <img width="1280" alt="mPl_road" src="https://user-images.githubusercontent.com/31091846/120188114-638e2700-c21e-11eb-9ee5-f12eb0eec005.png">
 
 
+![image](https://user-images.githubusercontent.com/31091846/120188287-9a643d00-c21e-11eb-9742-ed04c894ec86.png)
