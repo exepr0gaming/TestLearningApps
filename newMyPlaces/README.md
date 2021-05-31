@@ -20,6 +20,14 @@ CLGeocoder для преобразования местоположения в �
 MKPointAnnotation для описания точки на карте
 Проверем включение. служб отслеживания местоположения и создаем alert для объяснения, как это сделать
 
-<img width="1280" alt="mPl_mapManager" src="https://user-images.githubusercontent.com/31091846/120184940-3b9cc480-c21a-11eb-969c-12b637e4abf5.png">
+<img width="1280" alt="mPl_Annotation" src="https://user-images.githubusercontent.com/31091846/120187539-94ba2780-c21d-11eb-9f6d-90fb650fb968.png">
+
+Адрес можно задавать с помощью маркера
+
+<img width="1280" alt="mPl_coordinate" src="https://user-images.githubusercontent.com/31091846/120187572-a3084380-c21d-11eb-9516-e690797b559b.png">
+
+Построение двух маршрутов от пользователя до заведения
+
+<img width="1280" alt="mPl_road" src="https://user-images.githubusercontent.com/31091846/120188114-638e2700-c21e-11eb-9ee5-f12eb0eec005.png">
 
 
